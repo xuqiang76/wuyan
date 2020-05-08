@@ -1,59 +1,59 @@
 <?php
 
 // $DEBUG = true;
-// $LANGUAGE = 'cn';
-// $PLATFORM = 'wuyan';
+// $LANGUAGE = '123';
+// $PLATFORM = '123';
 
-// $MY_PATH = 'http://127.0.0.1/mahjong/game_agent/big_agent/index.php';
+// $MY_PATH = 'http://127.0.0.1/123';
 
 // //memcached servers
-// $MC_SERVERS = array(array('127.0.0.1', 11211));
+// $MC_SERVERS = array(array('127.0.0.1', 123));
 
 // //缓存前缀  区分用的key前缀
-// $KYE_NAME = 'wuyan_ivery_ad_';
+// $KYE_NAME = '123';
 
 // //测试版数据地址
-// $DB_HOST = '10.66.182.68';
-// $DB_USERNAME = 'root';
-// $DB_PASSWD = 'gfplay@541013';
-// $DB_DBNAME = 'fair_agent';
-// $DB_PORT = '3306';
+// $DB_HOST = '123';
+// $DB_USERNAME = '123';
+// $DB_PASSWD = '123';
+// $DB_DBNAME = '123';
+// $DB_PORT = '123';
 
-// $API_KEY = 'NCBDpay';
-// $RPC_KEY = 'gfplay is best gfplay is best';
+// $API_KEY = '123';
+// $RPC_KEY = '123 123';
 
 $options = [
 	'mysql' => [
-		'host' => '172.26.25.207',
-		'port' => 3306,
-		'username' => 'wuyandev',
-		'password' => 'wuyandev',
+		'host' => '123',
+		'port' => 123,
+		'username' => '123',
+		'password' => '123',
 		'dbname' => 'iveryone_test',
 		'charset' => 'utf8mb4',
 	],
 	'redis' => [
 		'parameters' => [
 			'scheme' => 'tcp',
-			'host' => '172.26.25.208',
-			'port' => 6379,
-			'password' => '9f3d9739b11c2a4b08ea48512ac467f6',
+			'host' => 'ttt',
+			'port' => 123,
+			'password' => 'ttt',
 		],
 		'db' => 5,
 		'cachedb' => 6,
 	],
 
-	'h5_url' => 'https://beta.iveryone.test.wuyan.cn/',
+	'h5_url' => 'https://123/',
 
-	'iveryone_api_url' => 'http://api.iveryone.test.wuyan.cn/',
-	'iveryone_openapi_url' => 'http://openapi.iveryone.test.wuyan.cn/',
+	'iveryone_api_url' => 'http://ttt/',
+	'iveryone_openapi_url' => 'http://ttt/',
 	'linkface' => [
-		'api_id' => 'cda7ca4424ed43f8ae4239ebcfacd065',
-		'api_secret' => '60a29bd891964871a1282ca728a45f78',
+		'api_id' => '123',
+		'api_secret' => '123',
 	],
 	'aliyun' => [
 		'oss' => [
-			'accessKeyId' => 'LTAIgqlgNpdOi1H6',
-			'accessKeySecret' => 'SbbBjxAroCcHnvxQgA5gZ8GlQ7DqcG',
+			'accessKeyId' => '123',
+			'accessKeySecret' => '123',
 		],
 	],
 ];
